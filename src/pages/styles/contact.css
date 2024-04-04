@@ -1,0 +1,45 @@
+.contact-page {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-page strong {
+    color: #48dbfb;
+}
+
+.contact-content {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    top: 100px;
+    justify-content: space-evenly;
+}
+
+.card-contact {
+    background-color: #04223b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-contact h3 {
+    text-align: justify;
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-content {
+        display: block;
+        position: relative;
+        margin-top: 40px;
+        top: 100px;
+        justify-content: space-evenly;
+    }
+
+    .info-contact {
+        margin-top: 50px;
+    }
+
+    .card-contact h3 {
+        font-size: 14px;
+    }
+}
