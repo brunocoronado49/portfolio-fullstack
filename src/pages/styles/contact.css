@@ -22,8 +22,24 @@
 }
 
 .card-contact h3 {
-    text-align: justify;
+    text-align: center;
     margin: 20px;
+}
+h3 a {
+    text-decoration: none;
+    color: #48dbfb;
+}
+
+.btn-contact {
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img-contact img {
+    width: 400px;
 }
 
 @media screen and (max-width: 600px) {
@@ -37,9 +53,14 @@
 
     .info-contact {
         margin-top: 50px;
+
     }
 
     .card-contact h3 {
         font-size: 14px;
+    }
+
+    .img-contact img {
+        width: 300px;
     }
 }
