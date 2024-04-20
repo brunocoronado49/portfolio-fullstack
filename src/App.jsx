@@ -4,7 +4,6 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Portfolio } from './pages/Portfolio'
 import { Contact } from './pages/Contact'
-import { FooterApp } from './components/FooterApp'
 import './app.css'
 
 const App = () => {
@@ -15,7 +14,6 @@ const App = () => {
       <Route path='/portfolio' component={Portfolio} />
       <Route path='/contact' component={Contact} />
       <Route path='/about' component={About} />
-      <FooterApp/>
     </div>
   )
 }
